@@ -1,0 +1,9 @@
+
+/* Praat Syntax Highlighting */
+
+.praat .s { color: maroon } /* strings */
+.praat .d { color: darkgoldenrod } /* digits */
+.praat .k { color: darkblue } /* keywords */
+.praat .c { color: forestgreen } /* comments */
+.praat .v { color: slategrey } /* variables */
+.praat b {background-color: lightblue }
