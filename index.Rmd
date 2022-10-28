@@ -1,0 +1,39 @@
+---
+title: "Automatic Formant Extraction with Praat"
+date: "2022-10-28"
+author: 
+    name: "Joseph A. Stanley"
+    corresponding: true
+    url: "https://joeystanley.com/"
+    orcid: "0000-0002-9185-0048"
+    affiliations: 
+        name: "Brigham Young University"
+        department: "Linguistics"
+        address: "4064 JFSB"
+        city: "Provo"
+        state: "Utah"
+        country: "USA"
+        postal-code: "84602"
+output:
+  html_document:
+    toc: yes
+    toc_depth: 3
+    toc_float:
+        collapsed: true
+    theme: simplex
+    number_sections: true
+    css: praat_syntax_highlighting.css
+license: "CC-BY-SA-4.0"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This is a tutorial that guides you Praat scripting with the goal of writing a script that automatically extracting vowel formant measurements. Part 1 introduces scripting and focuses only on TextGrids. I'll introduce audio in Part 2 end by the end of it, you should have a basic working script. Part 3 is optional but expands the script to make it more flexible and help you save time later.
+
+These tutorials are an update to ones I published previously on my personal website. The end product is more or less the same, but the explanation on how to get there has been completely rewritten.
+
+[Part 1: Working with TextGrids](1_Working with TextGrids.Rmd)
+Part 2: Acoustic Measurements
+Part 3: Additional Topics

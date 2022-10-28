@@ -35,11 +35,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Introduction
 
-This three-part tutorial will walk you through writing a Praat script that extracts vowel formant measurements automatically. Part 1 introduces scripting and focuses only on TextGrids. I'll introduce audio in Part 2 end by the end of it, you should have a basic working script. Part 3 is optional but expands the script to make it more flexible and help you save time later.
-
-::: callout-note
-These tutorials are an update to ones I published previously on my personal website. The end product is more or less the same, but the explanation on how to get there has been completely rewritten.
-:::
+In this tutorial, we'll see some of the basics of Praat scripting and we'll focus on just a single TextGrid. We'll get to automatic acoustic measurements later, but for now, we need to understand some fundamental ideas before we get too crazy.
 
 ## Data Preparation
 
